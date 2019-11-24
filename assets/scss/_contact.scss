@@ -1,0 +1,64 @@
+.form-control
+{
+ 	width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 0px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.form-control:focus
+{
+	border-color: $primary;
+	box-shadow: none;
+	outline: none;
+}
+
+textarea
+{
+	border-radius: 0px!important;
+}
+
+.section-contact
+{
+	h3
+	{
+		color: $primary !important;
+		font-size: 15px;
+		padding: 15px;
+		padding-bottom: 0px;
+	}
+
+	p
+	{
+		padding: 15px;
+	}
+
+	i
+	{
+		font-size: 15px;
+		font-weight: 400;
+		width: 32px;
+		vertical-align: middle;
+		height: 36px;
+		text-align: center;
+		display: inline-block;
+		float: left;
+		margin-right: 5px;
+		line-height: 28px;
+		color: $black;
+	}
+}
+
+.vertical-line
+{
+	border-left: 2px solid lighten($black, 95);
+	height: 350px;
+	width: 5%;
+    margin: auto;
+}
+
